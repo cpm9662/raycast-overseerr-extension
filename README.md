@@ -51,6 +51,7 @@ Follow these steps to obtain your TMDB API key:
 
 ## 📂 Folder Structure
 
+```
 overseerr-extension/
 ├── assets/         # Icons used in the extension
 ├── media/          # Screenshots for README
@@ -62,7 +63,7 @@ overseerr-extension/
 ├── package.json
 ├── tsconfig.json
 └── README.md
-
+```
 ## 🧑‍💻 Author
 
 Created by **cpm9662**
