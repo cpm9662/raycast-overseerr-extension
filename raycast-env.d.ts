@@ -5,6 +5,7 @@
  * Do not modify manually. Instead, update the `package.json` file.
  * 🚧 🚧 🚧 */
 
+
 type ExtensionPreferences = {
   /** Overseerr Address - The base URL of your Overseerr instance (e.g., http://localhost:5055) */
   "OVERSEERR_API_ADDRESS": string,
