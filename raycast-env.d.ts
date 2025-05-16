@@ -5,8 +5,6 @@
  * Do not modify manually. Instead, update the `package.json` file.
  * 🚧 🚧 🚧 */
 
-/* eslint-disable @typescript-eslint/ban-types */
-
 type ExtensionPreferences = {
   /** Overseerr Address - The base URL of your Overseerr instance (e.g., http://localhost:5055) */
   "OVERSEERR_API_ADDRESS": string,
@@ -34,4 +32,3 @@ declare namespace Arguments {
   /** Arguments passed to the `pending` command */
   export type Pending = {}
 }
-
