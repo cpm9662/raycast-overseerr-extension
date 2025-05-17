@@ -5,6 +5,7 @@
  * Do not modify manually. Instead, update the `package.json` file.
  * 🚧 🚧 🚧 */
 
+/* eslint-disable @typescript-eslint/ban-types */
 
 type ExtensionPreferences = {
   /** Overseerr Address - The base URL of your Overseerr instance (e.g., http://localhost:5055) */
@@ -14,7 +15,11 @@ type ExtensionPreferences = {
   /** TMDB API Key - Your TMDB API Key (TMDB → Settings → API → API Key) */
   "TMDB_KEY": string,
   /** TMDB Language - e.g., ko (Korean), ja, etc. (Default: en) */
-  "TMDB_LANGUAGE"?: string
+  "TMDB_LANGUAGE"?: string,
+  /** Sonarr Address - e.g., http://localhost:8989 */
+  "SONARR_API_ADDRESS"?: string,
+  /** Sonarr API Key - Found in Sonarr → Settings → General → API Key */
+  "SONARR_API_KEY"?: string
 }
 
 /** Preferences accessible in all the extension's commands */
@@ -33,3 +38,4 @@ declare namespace Arguments {
   /** Arguments passed to the `pending` command */
   export type Pending = {}
 }
+
